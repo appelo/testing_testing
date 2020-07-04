@@ -37,4 +37,6 @@ jobs:
     - name: Compile example 1
       run: |
         which gcc
+        ls /usr/bin/
+
         
