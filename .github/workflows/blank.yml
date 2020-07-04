@@ -36,7 +36,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Compile example 1
       run: |
-        which gcc
-        ls /usr/bin/
+        perl tests.pl
 
         
